@@ -1,6 +1,6 @@
 a = int(input("a = "))
 b = int(input("b = "))
-op = input("Доступные операции (+, -, *, /) : ")
+op = input("Доступные операции (+, -, *, /, //) : ")
 
 if op == "+":
     print(a + b)
@@ -9,6 +9,10 @@ elif op == "-":
 elif op == "*":
     print(a * b)
 elif op == "/":
-    print(b / a)
+    print(a / b)
+elif op == "//":
+    print(a // b)
 else:
     print("Неверная операция")
+
+
